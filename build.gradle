@@ -7,6 +7,9 @@ version '1.0-SNAPSHOT'
 
 sourceCompatibility = 11
 
+apply plugin:'application'
+mainClassName = 'com.github.korosuke613.example.publish.use.Main'
+
 repositories {
     maven {
         name = "GitHubPackages"
